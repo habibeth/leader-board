@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e1e800e1fa.js" crossorigin="anonymous"></script>
     <!-- link stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,13 +14,38 @@
 <body>
     <!-- start header -->
     <header>
-
+        <div class="navbar-area">
+            <div class="nav">
+                <div class="menu-logo">
+                    <img src="images/icons/logo.png" alt="">
+                    <p>Idea</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <ul class="item">
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Works</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user">
+                        <img src="images/icons/profile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- end header  -->
 
     <main>
         <!-- top player and top blog setion  -->
-        <section class="container">            
+        <section class="container">
             <div class="top-players">
                 <h2 class="section-title">Top player</h2>
                 <div class="players">
@@ -75,14 +102,14 @@
             <hr>
             <div class="top-blogs">
                 <h2 class="section-title">Top Blogs</h2>
-                <div class="blogs">                    
+                <div class="blogs">
                     <div class="blog">
                         <div class="blog-image">
                             <img src="images/blogs/blog-1.png" alt="">
                         </div>
                         <div class="blog-info">
                             <div class="blog-title">
-                                <h2>13 of My Favorite 
+                                <h2>13 of My Favorite
                                     UI/UX Goodies</h2>
                             </div>
                             <div class="blog-author">
@@ -96,7 +123,7 @@
                         </div>
                         <div class="blog-info">
                             <div class="blog-title">
-                                <h2>UI cheat sheet: 
+                                <h2>UI cheat sheet:
                                     list vs grids</h2>
                             </div>
                             <div class="blog-author">
@@ -110,7 +137,7 @@
                         </div>
                         <div class="blog-info">
                             <div class="blog-title">
-                                <h2>7 typography tips 
+                                <h2>7 typography tips
                                     for interface design</h2>
                             </div>
                             <div class="blog-author">
@@ -124,7 +151,7 @@
                         </div>
                         <div class="blog-info">
                             <div class="blog-title">
-                                <h2>Your logo is 
+                                <h2>Your logo is
                                     copied</h2>
                             </div>
                             <div class="blog-author">
@@ -134,7 +161,84 @@
                     </div>
                 </div>
             </div>
-        </section>        
+        </section>
+        <section class="container">
+            <div class="latest-courses">
+                <h2 class="section-title">Latest Course</h2>
+                <div class="courses">
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/courses/course-1.png" alt="">
+                        </div>
+                        <div class="course-info">
+                            <h2>React - The Complete Guide 2020</h2>
+                            <p>Reed Krakoff.</p>
+                        </div>
+                        <div class="course-details">
+                            <div class="">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>01:30 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/courses/course-2.png" alt="">
+                        </div>
+                        <div class="course-info">
+                            <h2>Powerpoint 2020 Master Powerpoint Cour</h2>
+                            <p>Walter Scott</p>
+                        </div>
+                        <div class="course-details">
+                            <div class="">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>04:30 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/courses/course-3.png" alt="">
+                        </div>
+                        <div class="course-info">
+                            <h2>The Complete JavaScript Course 2020</h2>
+                            <p>Reed Krakoff.</p>
+                        </div>
+                        <div class="course-details">
+                            <div class="">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>03:30 hr</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 

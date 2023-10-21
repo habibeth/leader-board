@@ -4,19 +4,78 @@
 
 /* utilites */
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #9F9F9F;
 }
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     width: 870px;
     padding: 30px;
     background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+/* nav section  */
+.navbar-area {
+    height: 94px;
+    background-color: #562EFF;
+}
+
+.nav {
+    width: 870px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav p {
+    color: #FFF;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.nav img {
+    width: 40px;
+    height: 50px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.menu-items .user img {
+    width: 51px;
+    height: 51px;
+}
+
+.menu-items ul {
+    list-style: none;
+}
+
+.item {
+    display: flex;
 }
 
 /* top players  */
@@ -56,25 +115,34 @@ hr {
 }
 
 /* blog section  */
-.top-blogs h2{
+.top-blogs h2 {
     margin: 0px;
 }
+
+.top-blogs .section-title {
+    margin-bottom: 30px;
+}
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 26px;
     grid-column-gap: 10px;
 }
-.blog{
+
+.blog {
     display: flex;
 }
-.blog-info{
+
+.blog-info {
     margin-left: 10px;
 }
-.blog-title h2{
+
+.blog-title h2 {
     font-size: 20px;
     font-weight: 500;
 }
+
 .blog-image img {
     width: 224px;
     height: 127px;
@@ -87,4 +155,43 @@ hr {
 
 .blog-author span {
     color: #562EFF;
+}
+
+/* course section  */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.course-image img {
+    width: 266px;
+    height: 141px;
+}
+
+.course-info h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.course-details {
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-time {
+    color: #ED6B4F;
+    background-color: #FEE5DF;
+    padding: 5px 10px;
+    border-radius: 20px;
 }
